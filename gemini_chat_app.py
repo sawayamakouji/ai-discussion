@@ -1,7 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
 import os
-from dotenv import load_dotenv
 import pandas as pd
 import io
 import sys
@@ -18,10 +17,7 @@ plt.rcParams['axes.unicode_minus'] = False # マイナス記号を正しく表�
 # --- 日本語設定ここまで --- 
 
 # .envファイルから環境変数を読み込む
-load_dotenv()
-
-# Gemini APIキーを設定
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 if not GEMINI_API_KEY:
     st.error("GEMINI_API_KEYが設定されていません。.envファイルを確認してください。")
     st.stop()
