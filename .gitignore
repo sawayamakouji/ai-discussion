@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.Python
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+*.egg
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.Trashes
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+full_logs.md
+logs_*.json
+logs_*.md
+
+# Environment variables
+.env
+
+# Streamlit specific
+.streamlit/
+
+# Generated content
+generated_content/
