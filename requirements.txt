@@ -1,0 +1,10 @@
+google-generativeai
+python-dotenv
+mesa
+networkx
+pandas
+matplotlib
+seaborn
+streamlit
+openpyxl
+plotly
