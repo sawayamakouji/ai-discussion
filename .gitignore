@@ -44,6 +44,6 @@ logs_*.md
 
 # Streamlit specific
 .streamlit/
-
+.streamlit/secrets.toml
 # Generated content
 generated_content/
